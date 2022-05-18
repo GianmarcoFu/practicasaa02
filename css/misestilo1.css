@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: url("../imagen/bosque1920.jpg");
+    background-size: 100%;
+}
+#cabezera{
+    background: rgba(0, 0, 0, 0.5);
+    width: auto;
+    height: 100px;
+    text-align: left;
+    color: antiquewhite;
+    margin: 50px;
+    font-size: 35px;
+}
+#contenedor{
+    width: 1000px;
+    height: 800px;
+    float: left;
+    margin: auto;
+    display: flex;
+}
+#principal{
+    width: 400px;
+    
+    background: gray;
+    margin: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:column;
+    align-items:flex-start;
+    float: left;
+}
+    .contenido{
+    width: 100%;
+    height: 100px;
+    background: rgb(248, 248, 248);
+    outline: 1px solid black;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    text-align:left;
+    padding: 20px;
+    float: left;
+    
+    }
+    .contenido:hover{
+        width: 100%;
+        height: 100px;
+        background: rgb(134, 127, 114);
+        outline: 1px solid black;
+        text-decoration: none;
+        color: rgb(69, 179, 155);
+        font-size: 35px;
+        text-align: left;
+        padding: 20px;
+        float: left;
+        
+    }
+    #principal2{
+        background: rgb(236, 234, 234);
+        width: 1000px;
+        float: left;
+        height: 800px;
+        background: url("../imagen/vegetables1.jpg" ) no-repeat;
+        position: relative;
+        top: 200px;
+        left: 0px;
+        text-align:  left;
+        
+    }
+    #principal3{
+        height: 400px;
+        width: 500px;
+        position: relative;
+        top: -35px;
+        left: 640px;
+        background: white;
+        
+    }
+    #principal4{
+        height: 200px;
+        width: 500px;
+        position: relative;
+        top: -300px;
+        left: 640px;
+        
+    }
+    
+    
+    
