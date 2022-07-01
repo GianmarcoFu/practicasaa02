@@ -1,0 +1,16 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#titulo{
+    font-family: 'Ms Madi', cursive;
+}
+#subtitulo{
+    font-size: 2em;
+}
+#parrafo{
+    font-weight: 700;
+}
+span{
+    font-family: 'Courier New', Courier, monospace;
+}
+

@@ -1,0 +1,119 @@
+*{
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+	min-height: 100vh;
+	background-image: url("../images/paisaje1.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	background-attachment: fixed;
+}
+body:before{
+	content: "";
+	width: 100%;
+	min-height: 50em;
+	background: linear-gradient(rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+	opacity: 0.6;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+#contenedor{
+	width: 900px;
+	margin: auto;
+	outline: 1px solid black;
+	display: flex;
+	background-image: url("../images/paisaje1.jpg");
+	background-size: cover;
+	background-position: center;
+
+}
+	.cajas{
+		width: 100%;
+		height: 100px;
+		background: rgba(0,0,0,0.5);
+		margin: 30px 0px;
+		padding: 30px;
+		color: #fff;
+
+	}
+#contenedorcuerpo{
+	width: 900px;
+	margin: auto;
+	outline: 1px solid black;
+	
+	background: #FDFFAE;
+	display: flex;
+}
+	#menu{
+		width: 40%;
+		height: 160px;
+		background: #66F174;
+		display: flex;
+		flex-wrap: wrap;
+	}
+		#menu a{
+			width: 100%;
+			height: 40px;
+			background: #058718;
+			text-decoration: none;
+			color: #fff;
+			padding: 10px 20px;
+		}
+		#menu a:hover{
+			width: 100%;
+			height: 40px;
+			background: #FEFFE3;
+			text-decoration: none;
+			color: #888B81;
+			padding: 10px 20px;
+		}
+
+	#cuerpo{
+		width: 60%;
+		background: #FEFFE3;
+		position: relative;
+		top: -20px;
+		border-radius: 5px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+		.areas{
+			width: 100%;
+			
+			background-color: #FFF;
+			margin: 10px;
+		}
+			.info{
+				display: flex;
+			}
+				.subinfo{
+					width: 50%;
+					background-color: grey;
+					padding: 10px;
+				}
+					.subinfo img{
+						width: 100%;
+					}
+					.subinfo h2{
+						color: #FF6A20;
+					}
+					.subinfo p{
+						color: #562602;
+					}
+			.video1{
+				padding: 10px;
+			}
+			.imagen{
+				display: flex;
+				flex-wrap: nowrap;
+			}
+				.imagen img{
+					width: 30%;
+					margin: 10px;
+				}
+

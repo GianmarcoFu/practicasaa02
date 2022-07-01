@@ -1,0 +1,68 @@
+#principal{
+    background: #631c25;
+    width: 1000px;
+    margin: auto;
+}
+header{
+    background: #633675;
+    height: 175px;
+}
+#izquierda{
+    width: 300px;
+    height: 250px;
+    background: #4281a5;
+    float: left;
+}
+#centro{
+    width: 400px;
+    height: 250px;
+    background: #3c368b;
+    float: left;
+}
+#derecha{
+    width: 300px;
+    height: 250px;
+    background: url("../imagen/iceberg.jpg");
+    float: left;
+}
+#alfombra{
+    background: url("../imagen/boreal.jpg");
+    height: 200px;
+    width: 505px;
+    background-position: left;
+}
+#pie{
+    clear: both;
+    background: #a1b83a;
+    height: 50px;
+    background-size: contain;
+}
+#pie1{
+    clear: both;
+    background: #b49145;
+    height: 50px;
+    background-size: contain;
+}
+#primer{
+    width: 350px;
+    height: 175px;
+    background: #76757e;
+    float: left;
+}
+#segundo{
+    width: 280px;
+    height: 175px;
+    background: url("../imagen/osopolar1.jpg");
+    float: left;
+}
+#lado{
+    background: #82a6bb;
+    height: 200px;
+    width: 500px;
+    float: right;
+}
+
+
+
+
+
